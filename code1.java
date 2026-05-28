@@ -10,6 +10,12 @@ public class code1 {
         for (int i = s.length(); i > 0; i--) {
             System.out.println(s.charAt(i));
         }
+        int[] a = { 1, 2, 3, 4, 5, 6 };
+        for (int i = 0; i <= a.length; i++) {
+            if (a[i] == 4) {
+                System.out.println("Number is found");
+            }
+        }
 
     }
 }
