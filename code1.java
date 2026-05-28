@@ -6,5 +6,10 @@ public class code1 {
             }
             System.out.println();
         }
+        String s = "tharun kuamr";
+        for (int i = s.length(); i > 0; i--) {
+            System.out.println(s.charAt(i));
+        }
+
     }
 }
